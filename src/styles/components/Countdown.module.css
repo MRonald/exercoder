@@ -57,7 +57,7 @@
     background: var(--white);
     color: var(--text);
     cursor: not-allowed;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid var(--green);
 }
 .countdownButton:disabled > img {
     height: 18px;

@@ -34,8 +34,8 @@ export function SetCountdownBar() {
                 <select 
                     onChange={
                         (e) => {
-                            setInitialTime(e.target.value);
-                            setTime(e.target.value);
+                            setInitialTime(parseInt(e.target.value));
+                            setTime(parseInt(e.target.value));
                         }
                     }
                 >

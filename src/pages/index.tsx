@@ -10,6 +10,7 @@ import { Countdown } from '../components/Countdown';
 import { ChallengeBox } from '../components/ChallengeBox';
 import { CountdownProvider } from '../contexts/CountdownContext';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
+import { SetCountdownBar } from '../components/SetCountdownBar';
 
 interface HomeProps {
   level: number,
@@ -41,6 +42,7 @@ export default function Home(props: HomeProps) {
               <ChallengeBox/>
             </div>
           </section>
+          <SetCountdownBar />
         </CountdownProvider>
       </div>
     </ChallengesProvider>

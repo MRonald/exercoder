@@ -1,0 +1,59 @@
+.setCountdownBarContainer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: all 1s;
+}
+.setCountdownBarContainer .arrowWrapper {
+    background-color: var(--white);
+    width: 90px;
+    height: 90px;
+    padding-top: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    border-radius: 100%;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.2);
+
+    transform: translateY(60%);
+
+    z-index: -1;
+    cursor: pointer;
+}
+.setCountdownBarContainer img {
+    width: 30px;
+    
+    transition: all 1s;
+}
+.setCountdownBarContainer .settingsWrapper {
+    height: 40px;
+
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--white);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+    z-index: 1;
+}
+.setCountdownBarContainer .settingsWrapper span {
+    z-index: 1;
+    
+    font-size: 1.1rem;
+}
+.setCountdownBarContainer .settingsWrapper select {
+    font-size: 1rem;
+
+    margin-left: 5px;
+}

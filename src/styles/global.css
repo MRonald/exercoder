@@ -29,6 +29,7 @@
 body {
     background-color: var(--background);
     color: var(--text);
+    overflow: hidden;
 }
 body, input, textarea, button {
     font: 400 1rem "Inter", sans-serif;
